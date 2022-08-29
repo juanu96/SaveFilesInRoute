@@ -1,0 +1,14 @@
+.carpetasContainer{
+    @apply p-16;
+    .botonesAccion{
+        @apply flex flex-row justify-between max-w-3xl gap-5;
+
+        .buttons{
+            @apply p-5 bg-gray-300 rounded-lg text-lg;
+        }
+
+        .nuevoArchivo{
+            @apply bg-red-600 text-white;
+        }
+    }
+}

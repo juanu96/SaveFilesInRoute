@@ -1,0 +1,11 @@
+.popupContainer{
+    @apply bg-white;
+
+    .inputsContent{
+        @apply flex flex-col ;
+
+        .inputStyle{
+            @apply border-2 border-black p-2 w-full rounded-lg;
+        }
+    }
+}
